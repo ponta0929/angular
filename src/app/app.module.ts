@@ -5,12 +5,14 @@ import { FormsModule } from "@angular/forms";
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './ponta/hero-detail/hero-detail.component';
+import { MessageComponent } from './ponta/message/message.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule
