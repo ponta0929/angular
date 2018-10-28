@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './ponta/hero-detail/hero-detail.component';
 import { MessageComponent } from './ponta/message/message.component';
+import { AppRoutingModule } from './app-routing.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessageComponent
+    MessageComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule
-    ,FormsModule
+    ,FormsModule, AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
